@@ -36,7 +36,7 @@ document.addEventListener("DOMContentLoaded", () => {
           // Incomplete expression ke liye
         }
       } 
-      // 4. Numbers & Operators (+, -, x, ÷, %, .)
+      // 4. Numbers & Operators (+, -,x , ÷, %, .)
       else {
         if (operators.includes(value)) {
           let lastChar = currentInput.slice(-1);
