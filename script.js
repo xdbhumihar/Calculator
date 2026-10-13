@@ -24,7 +24,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // 3. Equals (=)
       else if (value === "=") {
         try {
-          let evalString = currentInput.replace(/X/g, "*").replace(/÷/g, "/");
+          let evalString = currentInput.replace(/x/g, "*").replace(/÷/g, "/");
           let result = eval(evalString);
           
           if (result !== undefined && !isNaN(result)) {
